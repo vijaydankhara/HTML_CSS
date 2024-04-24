@@ -17,6 +17,10 @@
     border-radius: 10px;
     
 }
+span{
+    color: red;
+    padding-left: 10px;
+}
     </style>
     
 </head>
@@ -33,10 +37,10 @@
             <legend style="color: blue;"><b>General Information</b></legend>
 
             <label for="arrival_date">Arrival date:</label>
-            <input type="text" name="arrival_date" size="25" placeholder="12/39/2016"> <br><br>
+            <input type="text" name="arrival_date" size="25" placeholder="12/39/2016"> <span> Arrival date is invalid</span><br><br>
 
             <label for="nights"> Nights:</label>
-            <input type="text" name="nights" size="25" placeholder="three"> <br><br>
+            <input type="text" name="nights" size="25" placeholder="three"><span> Night must be a number</span> <br><br>
               
 
 
@@ -102,13 +106,13 @@
         <legend style="color: blue;"><b>General Information</b></legend>
 
         <label for="name">Name:</label>
-        <input type="text" name="name"> <br><br>
+        <input type="text" name="name"><span>Name is requride</span> <br><br>
 
         <label for="Email"> Email:</label>
-        <input type="text" name="Email" size="25" placeholder="skill@gmail.com"> <br><br>
+        <input type="text" name="Email" size="25" placeholder="skillgmail.com"><span>Email address is invalid</span> <br><br>
 
         <label for="phone"> Phone:</label>
-        <input type="text" name="phone" size="25" placeholder="+9198765443210"> <br><br>
+        <input type="text" name="phone" size="25" placeholder="123-456-789"><span>Phone number is invelide</span> <br><br>
 
     </fieldset>
     <br>
