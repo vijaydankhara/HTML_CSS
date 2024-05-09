@@ -16,57 +16,65 @@
 
 .parent {
     display: flex;
-    width: 1300px;
+    /* width: 1300px; */
     height: 500px;
-    border: 1px solid black;
+    border: 3px solid rgb(252, 13, 13);
 
     .box-1{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        flex-shrink: 2;
+        /* flex-grow: 2; */
     }
     .box-2{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
     .box-3{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
     .box-4{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
     .box-5{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
     .box-6{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
     .box-7{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
     .box-8{
         border: 1px solid blue;
         background-color: pink;
         flex-basis: 150px;
-        flex-shrink: 1;
+        /* flex-shrink: 1; */
+        /* flex-grow: 2; */
     }
 
 }
