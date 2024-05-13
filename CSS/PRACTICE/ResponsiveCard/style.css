@@ -7,7 +7,9 @@
 .main {
     background-color: wheat;
     border: 1px solid black;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start; 
@@ -88,9 +90,6 @@ body {
 .btn:hover {
     background-color: #f47805;
 }
-
-
-
 section {
 display:flex;
 flex-direction: column;

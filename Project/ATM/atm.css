@@ -13,16 +13,14 @@ body{
 }
 .container{
     position: relative;
-    background-color: #fff;
+    background-color: #29f400;
     background-size: cover;
     padding: 25px;
     border-radius: 28px;
-    max-width: 380px;
-    width: 100%;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 
 }
-.header,
+
 .logo{
 display: flex;
 align-items: center;
@@ -36,22 +34,20 @@ margin-right: 10px;
 }
 h5{
     font-size: 16px;
-    font-weight: 400;
     color: black;
 }
 
 .chip{
-    width: 5px;
-    height: 5px;
+   
+    padding-top: 80px;
     }
     h6{
         color: black;
-        font-size: 12px;
-        font-weight: 400;
+        font-size: 16px;
     }
     h5.number{
         margin-top: 4px;
-        font-size: 18   px;
+        font-size: 15px;
         letter-spacing: 1px;
 
     }
