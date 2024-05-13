@@ -17,7 +17,7 @@ h1{
     font-size: large 65px;
 }
 .item1{
-    background-color: aqua;
+    background-color: rgb(249, 150, 37);
     grid-column: 1 / 5;
 }
 .item2{
