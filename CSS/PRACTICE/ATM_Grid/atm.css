@@ -21,9 +21,9 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     transition: transform 0.3s ease;
-    display: grid; /* Added */
-    grid-template-rows: auto 1fr auto; /* Added */
-    grid-gap: 10px; /* Added */
+    display: grid; 
+    grid-template-rows: auto 1fr auto; 
+    grid-gap: 10px; 
 }
 
 .container:hover {

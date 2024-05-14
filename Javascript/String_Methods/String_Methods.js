@@ -51,3 +51,26 @@ String Split            ==>
 // let arr = 'hello surat welcome to surat';
 // let txt = arr.replaceAll('surat','dubai');
 // console.log(txt);   // hello dubai welcome to dubai
+
+//string strim
+// let arr = '           hello surat , how are you';
+// let txt = arr.trim();    // remove space
+// console.log(txt);        // hello surat , how are you
+
+
+//string strimStart
+// let arr = '           hello surat , how are you';
+// let txt = arr.trimStart();     // remove space to the start
+// console.log(txt);             //  hello surat , how are you
+
+
+// string strimEnd
+// let arr = '    hello  surat           ';
+// let txt = arr.trimEnd();
+// console.log(txt);    //     hello  surat
+
+
+// string Padstart
+let txt = '12345';
+let padded = text.padStart(5,'#');
+console.log(padded);
