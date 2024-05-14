@@ -71,6 +71,6 @@ String Split            ==>
 
 
 // string Padstart
-let txt = '12345';
-let padded = text.padStart(5,'#');
-console.log(padded);
+let arr = '1234567890';
+let txt = arr.padStart(4,"*");
+console.log(txt);
