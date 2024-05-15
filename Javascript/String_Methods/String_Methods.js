@@ -1,11 +1,11 @@
 //  String Method
 /*
 String Length           ==> count the String Length
-String slice            ==>
-String Substring        ==>
-String Substr           ==>
-String Replace          ==>     
-String ReplaceAll       ==>
+String slice            ==> start position, and end position (end not included).
+String Substring        ==> start and end values less than 0 are treated as 0
+String Substr           ==> the second parameter specifies the length of the extracted part.
+String Replace          ==>  replace word
+String ReplaceAll       ==>  replace all word
 String toUpperCase      ==> Sting convert in UpperCase(VIJAY)
 String toLowerCase      ==> Sting convert in LowerCase(vijay)
 String Concat           ==> two string Murge
@@ -14,9 +14,9 @@ String trimStart        ==> remove All Space to Start
 String trimEnd          ==> remove All Space to End
 String PadStart         ==> add to icone in start => (####123456)
 String PadEnd           ==> add to icone in End   => (123456####)
-String CharAt           ==>
-String CharCodeAt       ==>
-String Split            ==>
+String CharAt           ==> returns the character at a specified index (position) in arry
+String CharCodeAt       ==> his return indexnumber of ASCII value.
+String Split            ==> converted to an array with the split()
 
 */
 
@@ -71,6 +71,34 @@ String Split            ==>
 
 
 // string Padstart
-let arr = '1234567890';
-let txt = arr.padStart(4,"*");
-console.log(txt);
+// let arr = '67890';
+// let txt = arr.padStart(10,"#");
+// console.log(txt);    // #####67890
+
+
+// String PadEnd
+// let arr = '12345';
+// let txt = arr.padEnd(10,"#");
+// console.log(txt);    // 12345#####
+
+
+//   CharAt (one argument)     ==> returns the character at a specified index (position) in arry
+// let arr = 'javascript';
+// // let txt = arr.charAt(2);    // v
+// // let txt = arr.charAt(0);    // j
+// let txt = arr.charAt(9);       // t
+// console.log(txt);   
+
+
+// chatCodeAt (one argument)   ==> his return indexnumber of ASCII value.
+// let arr = 'How Are You';
+// // let txt = arr.charCodeAt(0);      // 72
+// // let txt = arr.charCodeAt(4);      // 32
+// let txt = arr.charCodeAt(8);      // 89
+// console.log(txt);
+
+// string split      ==> converted to an array with the split()
+// let arr = 'HELLO WORLD HOW ARY YOU';
+// let txt = arr.split(" ");          // [ 'HELLO', 'WORLD', 'HOW', 'ARY', 'YOU' ]
+// // let txt = arr.split("H");       // [ '', 'ELLO WORLD ', 'OW ARY YOU' ]
+// console.log(txt);
