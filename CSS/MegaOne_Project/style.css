@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Start Navbar  */
+.navbar {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.center-nav a {
+    color: #002450;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.navbar a.logo {
+    color: rgb(214, 21, 21);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+/* Hamburger icon */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'24,
+
+}
+
+.icon {
+    padding-right: 10px;
+    justify-content: end;
+}
+
+/* End Navbar  */
+
+
+/* Start Banner */
+.container {
+    background-color: 007bff;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+
+}
+.container h1{
+    font-size: 62px;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+.container span{
+    font-size: 62px;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+.slider-image{
+    
+}
+/* End Banner */
