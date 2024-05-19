@@ -62,6 +62,7 @@
 
 
 /* Start Banner */
+
 /* Section 1 */
 .bg-banner1 {
     background-color: #007bff;
@@ -176,6 +177,9 @@
     color: black;
     justify-content: space-between;
     padding: 90px;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .Hosting-img2 {
@@ -200,12 +204,6 @@
 }
 
 /* section 3 start */
-
-.bg-image {
-    background-image: url('./assets/asset\ 15.jpeg');
-    display: flex;
-    margin-top: 200px;
-}
 
 .Questions-tax h5 {
     padding-top: 10px;
@@ -246,3 +244,387 @@
     text-align: center;
     box-shadow: none;
 }
+
+/* section 3 End */
+
+/* ================================================== */
+
+
+/* section 4 start */
+/* circle Start */
+.three-cricle{
+    display: flex;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+    justify-content: space-around;
+
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px;
+}
+.circle1 {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto, sans-serif";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;    
+
+}
+.circle h6{
+        font-family: "Roboto, sans-serif";
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #002450;
+        /* line-height: normal; */
+}
+.circle h4{
+    font-family: "Roboto, sans-serif";
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #002450;
+    /* line-height: 28.5px; */
+}
+.circle p{
+    font-family: "Roboto, sans-serif";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #002450;
+    line-height: normal;
+}
+/* circle End */
+/* Section 4 End */
+
+/* ================================================== */
+
+/* section 5 start */
+.bg-banner4 {
+    background-image: url('./assets/asset\ 15.jpeg');
+}
+
+.container4 {
+    /* background-color: 007bff; */
+    color: #fff;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.block-text {
+    text-align: center;
+}
+
+.block-text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.block-text h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn2 {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border: 2px solid #00b6ff;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: #00b6ff;
+}
+/* Section 5 End */
+
+/* ================================================== */
+
+/* section 6 Start  */
+.container5 {
+    padding-top: 200px;
+    background-color: #fff;
+    color: #2d2d2d;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.top-text{
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+.bottom-text{
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Montserrat, sans-serif";
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+.hosting_packages p{
+    color: #2d2d2d;
+    text-align: center;
+    font-family: "Roboto, sans-serif";
+    margin-top: 25px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500px;
+}
+/* Section 6 End */
+
+
+/* ================================================== */
+
+
+/* Section 7 Start */
+.bg-banner6{
+    /* padding-top: 5px; */
+margin-top: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.columns {
+    color: #2d2d2d;
+    height: 450px;
+    max-width: 600px;
+    /* margin: auto; */
+    justify-content: space-between;
+    display: flex;
+}
+.columns2 {
+    color: #2d2d2d;
+    height: 450px;
+    max-width: 600px;
+    /* margin: auto; */
+    justify-content: space-between;
+    display: flex;
+}
+/* prince-log 1 & 2 */
+.Prince-log {
+    width: 300px;
+    height: 310px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Prince-log .header {
+    background-color: #111;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.Prince-log .pri {
+    color: #002450;
+    font-size: 36px;
+    text-align: center;
+}
+
+.Prince-log li {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto, sans-serif";
+}
+
+.Prince-log .month {
+    color: #002450;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+}
+.button-lord{
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: 2px solid #002450;
+    background-color: #002450;
+    border-radius: 50px;
+    margin: 48px 91px;
+    color: #fff;
+}
+
+/* prince-log 2 */
+.Prince-log2 {
+    width: 300px;
+    height: 310px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Prince-log2 .header {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.Prince-log2 .pri {
+    color: #002450;
+    font-size: 36px;
+    text-align: center;
+}
+
+.Prince-log2 li {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto, sans-serif";
+}
+
+.Prince-log2 .month {
+    color: #002450;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+}
+
+.button-lord2{
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    border-radius: 50px;
+    margin: 48px 91px;
+    color: #fff;
+}
+/* Hover */
+.columns:hover {
+    background-color: #00b7ff;
+    color: #fff;
+}
+.columns2:hover {
+    background-color: #002450;
+    color: #fff;
+}
+
+/* Section 7 End */
+
+/* ================================================== */
+
+/* Section 8 Start */
+.bg-banner7 {
+    background-color: #f6f6f6;
+}
+
+.hosting6 {
+    display: flex;
+}
+.container6 {
+    /* background-color: 007bff; */
+    color: #2d2d2d;
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+
+}
+
+.container6 h1 {
+    margin-top: 30px;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-family: "Montserrat, sans-serif";
+}
+
+.container6 p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    font-family: "Roboto, sans-serif";
+    margin-top: 30px;
+    margin-bottom: 48px
+}
+
+.vps-button {
+    display: flex;
+    color: #fff;
+    width: 240px;
+    background-color: #007bff;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 75px;
+    padding: 12px 40px;
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.vps{
+    margin-top: 160px;
+}
+
+.vps-image {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 94px 30px 0;
+    margin-top: 70px;
+}
+
+/* Section 8 End */
+
+/* ================================================== */
+
+
+
+
+
+
+
+
+
+
+/* Section 9 Start */
+
+
+/* Section 9 End */
