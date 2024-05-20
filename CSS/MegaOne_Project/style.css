@@ -252,7 +252,7 @@
 
 /* section 4 start */
 /* circle Start */
-.three-cricle{
+.three-cricle {
     display: flex;
     height: 100%;
     max-width: 1100px;
@@ -260,38 +260,40 @@
     justify-content: space-around;
 
 }
- .loader {
+
+.loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #00c8ff; 
+    border-top: 16px solid #00c8ff;
     border-right: 16px solid #00c8ff;
     border-bottom: 16px solid #00c8ff;
     /* border-left: 16px solid #00c8ff; */
     width: 200px;
     height: 200px;
     animation: spin 2s linear infinite;
-  }
+}
 
-  /* @keyframes spin {
+/* @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   } */
 
-  
 
-.circle{
+
+.circle {
     width: 300px;
     height: 300px;
     border: 2px solid red;
     text-align: center;
     padding: 15px;
 }
+
 .circle1 {
     position: relative;
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,22 +301,24 @@
     font-family: "Roboto, sans-serif";
     font-size: 16px;
     letter-spacing: 0.5px;
-    text-align: center;    
-border: 16px solid green;
+    text-align: center;
+    border: 16px solid green;
 }
-.loader h6{
-        font-family: "Roboto, sans-serif";
-        font-size: 30px;
-        letter-spacing: 0.5px;
-        text-align: center;
-        color: #002450;
-        /* line-height: normal; */
-        position: absolute;
-        z-index: 1;
-        padding-top: 70px;
-        padding-left: 63px;
+
+.loader h6 {
+    font-family: "Roboto, sans-serif";
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #002450;
+    /* line-height: normal; */
+    position: absolute;
+    z-index: 1;
+    padding-top: 70px;
+    padding-left: 63px;
 }
-.circle h4{
+
+.circle h4 {
     font-family: "Roboto, sans-serif";
     font-size: 24px;
     letter-spacing: 0.5px;
@@ -322,7 +326,8 @@ border: 16px solid green;
     color: #002450;
     /* line-height: 28.5px; */
 }
-.circle p{
+
+.circle p {
     font-family: "Roboto, sans-serif";
     font-size: 16px;
     letter-spacing: 0.5px;
@@ -330,6 +335,7 @@ border: 16px solid green;
     color: #002450;
     line-height: normal;
 }
+
 /* circle End */
 /* Section 4 End */
 
@@ -349,6 +355,7 @@ border: 16px solid green;
     margin: auto;
     background-repeat: no-repeat;
 }
+
 .block-text {
     text-align: center;
 }
@@ -385,6 +392,7 @@ border: 16px solid green;
     margin-top: 20px;
     color: #00b6ff;
 }
+
 /* Section 5 End */
 
 /* ================================================== */
@@ -398,21 +406,24 @@ border: 16px solid green;
     max-width: 1100px;
     margin: auto;
 }
-.top-text{
+
+.top-text {
     color: #2d2d2d;
     text-align: center;
     font-family: "Montserrat, sans-serif";
     font-size: 36px;
     letter-spacing: 0.5px;
 }
-.bottom-text{
+
+.bottom-text {
     color: #2d2d2d;
     text-align: center;
     font-family: "Montserrat, sans-serif";
     font-size: 36px;
     letter-spacing: 0.5px;
 }
-.hosting_packages p{
+
+.hosting_packages p {
     color: #2d2d2d;
     text-align: center;
     font-family: "Roboto, sans-serif";
@@ -421,6 +432,7 @@ border: 16px solid green;
     letter-spacing: 0.5px;
     font-weight: 500px;
 }
+
 /* Section 6 End */
 
 
@@ -428,9 +440,9 @@ border: 16px solid green;
 
 
 /* Section 7 Start */
-.bg-banner6{
+.bg-banner6 {
     /* padding-top: 5px; */
-margin-top: 5px;
+    margin-top: 5px;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
@@ -439,6 +451,7 @@ margin-top: 5px;
     max-width: 1100px;
     margin: auto;
 }
+
 .columns {
     color: #2d2d2d;
     height: 450px;
@@ -447,6 +460,7 @@ margin-top: 5px;
     justify-content: space-between;
     display: flex;
 }
+
 .columns2 {
     color: #2d2d2d;
     height: 450px;
@@ -455,6 +469,7 @@ margin-top: 5px;
     justify-content: space-between;
     display: flex;
 }
+
 /* prince-log 1 & 2 */
 .Prince-log {
     width: 300px;
@@ -492,7 +507,8 @@ margin-top: 5px;
     text-align: center;
     padding: 2px;
 }
-.button-lord{
+
+.button-lord {
     display: inline-block;
     text-align: center;
     letter-spacing: 0.5px;
@@ -544,7 +560,7 @@ margin-top: 5px;
     padding: 2px;
 }
 
-.button-lord2{
+.button-lord2 {
     display: inline-block;
     text-align: center;
     letter-spacing: 0.5px;
@@ -557,11 +573,13 @@ margin-top: 5px;
     margin: 48px 91px;
     color: #fff;
 }
+
 /* Hover */
 .columns:hover {
     background-color: #00b7ff;
     color: #fff;
 }
+
 .columns2:hover {
     background-color: #002450;
     color: #fff;
@@ -579,6 +597,7 @@ margin-top: 5px;
 .hosting6 {
     display: flex;
 }
+
 .container6 {
     /* background-color: 007bff; */
     color: #2d2d2d;
@@ -620,7 +639,8 @@ margin-top: 5px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-.vps{
+
+.vps {
     margin-top: 160px;
 }
 
@@ -641,7 +661,7 @@ margin-top: 5px;
 
 
 /* Section 9 Start */
-.bg-banner8{
+.bg-banner8 {
     height: 625px;
     max-width: 100%;
     margin: auto;
@@ -649,13 +669,15 @@ margin-top: 5px;
     display: flex;
     justify-content: space-evenly;
 }
-.customer{
+
+.customer {
     padding-top: 240px;
     width: 50%;
     height: 625px;
     background-color: #007bff;
 }
-.customer h5{
+
+.customer h5 {
     /* margin-top: 240px; */
 
     font-size: 48px;
@@ -665,7 +687,8 @@ margin-top: 5px;
     text-align: center;
     line-height: 57.6px;
 }
-.customer h2{
+
+.customer h2 {
     margin-top: 8px;
     font-size: 60px;
     font-family: "Montserrat, sans-serif";
@@ -674,7 +697,8 @@ margin-top: 5px;
     text-align: center;
     line-height: 72px;
 }
-.customer-image{
+
+.customer-image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -684,38 +708,43 @@ margin-top: 5px;
     color: #fff;
     background-color: #002450;
 }
-.quote{
+
+.quote {
     font-size: 20px;
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.5px;
 
 }
-.sara-textbox{
+
+.sara-textbox {
     width: 477px;
     height: 161px;
     color: #fff;
 }
-.host-pera{
+
+.host-pera {
     font-family: "Roboto, sans-serif";
     font-size: 18px;
     line-height: 32.4px;
     text-align: center;
     letter-spacing: 0.5px;
-    
+
 }
-.sara-image{
+
+.sara-image {
     height: 100px;
     width: 100px;
 
 }
-.text-sara{
+
+.text-sara {
     font-family: "Montserrat, sans-serif";
     font-size: 24px;
     line-height: 28.8px;
     text-align: center;
     letter-spacing: 0.5px;
-    
+
 }
 
 /* Section 9 End */
@@ -725,7 +754,7 @@ margin-top: 5px;
 /* Section 10 Start */
 
 .bg-banner9 {
-    height: 625px;
+    height: 725px;
     max-width: 100%;
     margin: auto;
     background-color: #fff;
@@ -735,8 +764,7 @@ margin-top: 5px;
 
 .blog-card {
     width: 1140px;
-    height: 727px;
-    margin-top: 100px;
+    height: 725px;
     justify-content: center;
     align-items: center;
 }
@@ -763,7 +791,7 @@ margin-top: 5px;
     flex-direction: column;
 }
 
-.poster-web{
+.poster-web {
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -785,12 +813,15 @@ margin-top: 5px;
     transform: translateY(-10px);
     color: #f6f6f6;
 }
+
 .post-date:hover {
     color: #002450;
 }
+
 .post-title:hover {
     color: #00b7ff;
 }
+
 .author-name:hover {
     color: #002450;
 }
@@ -846,5 +877,155 @@ margin-top: 5px;
     font-size: "Roboto, sans-serif";
     text-align: left;
 }
+
 /* Section 10 End */
 
+/* ************************************** */
+
+/* Section 11 start */
+.contact-section {
+    height: 511px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: #00b7ff;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    /* width:1140px;; */
+    max-width: 90%;
+    height: 272px;
+    border: 4px solid rgb(249, 127, 5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.logos {
+    width: 255px;
+    height: 271px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(249, 12, 111);
+    padding: 0px 15px 0px 40px;
+}
+
+.user-name {
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: "Montserrat, sans-serif";
+    line-height: 28.8px;
+}
+
+.user-designation {
+    font-size: 18px;
+    font-family: "Roboto, sans-serif";
+    line-height: 25px;
+}
+
+.user-img {
+    width: 130px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    width: 427.5px;
+    height: 266px;
+    border: 1px solid rgb(245, 244, 245);
+    background-color: #00b7ff;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.messages{
+    width: 427.5px;
+    height: 266px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Section 11 End */
+
+/* *********************************** */
+
+/* Section 12 Start */
+.footer {
+    background-color: #fff;
+    color: #002450;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social-media {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icone {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-icone p {
+    margin: 0 10px;
+}
+
+.social-icone i {
+    font-size: 15px;
+    color: #002450;
+    transition: color 0.3s ease;
+}
+
+.social-icone i:hover {
+    color: #1da1f2;
+    
+}
+
+.com-about {
+    width: 100%;
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.company-about {
+    margin: 0;
+    color: #002450;
+    font-size: 17px;
+}
+
+/* Section 12 End */
