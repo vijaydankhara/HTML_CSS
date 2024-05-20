@@ -260,6 +260,25 @@
     justify-content: space-around;
 
 }
+ .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00c8ff; 
+    border-right: 16px solid #00c8ff;
+    border-bottom: 16px solid #00c8ff;
+    /* border-left: 16px solid #00c8ff; */
+    width: 200px;
+    height: 200px;
+    animation: spin 2s linear infinite;
+  }
+
+  /* @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
+
+  
+
 .circle{
     width: 300px;
     height: 300px;
@@ -281,15 +300,19 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     text-align: center;    
-
+border: 16px solid green;
 }
-.circle h6{
+.loader h6{
         font-family: "Roboto, sans-serif";
         font-size: 30px;
         letter-spacing: 0.5px;
         text-align: center;
         color: #002450;
         /* line-height: normal; */
+        position: absolute;
+        z-index: 1;
+        padding-top: 70px;
+        padding-left: 63px;
 }
 .circle h4{
     font-family: "Roboto, sans-serif";
@@ -315,12 +338,13 @@
 /* section 5 start */
 .bg-banner4 {
     background-image: url('./assets/asset\ 15.jpeg');
+    background-size: cover;
 }
 
 .container4 {
     /* background-color: 007bff; */
     color: #fff;
-    height: 100%;
+    height: 333px;
     max-width: 1100px;
     margin: auto;
     background-repeat: no-repeat;
@@ -616,15 +640,211 @@ margin-top: 5px;
 /* ================================================== */
 
 
-
-
-
-
-
-
-
-
 /* Section 9 Start */
+.bg-banner8{
+    height: 625px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.customer{
+    padding-top: 240px;
+    width: 50%;
+    height: 625px;
+    background-color: #007bff;
+}
+.customer h5{
+    /* margin-top: 240px; */
 
+    font-size: 48px;
+    font-family: "Montserrat, sans-serif";
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 57.6px;
+}
+.customer h2{
+    margin-top: 8px;
+    font-size: 60px;
+    font-family: "Montserrat, sans-serif";
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 72px;
+}
+.customer-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 625px;
+    color: #fff;
+    background-color: #002450;
+}
+.quote{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+.sara-textbox{
+    width: 477px;
+    height: 161px;
+    color: #fff;
+}
+.host-pera{
+    font-family: "Roboto, sans-serif";
+    font-size: 18px;
+    line-height: 32.4px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+}
+.sara-image{
+    height: 100px;
+    width: 100px;
+
+}
+.text-sara{
+    font-family: "Montserrat, sans-serif";
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+}
 
 /* Section 9 End */
+
+/* ================================================== */
+
+/* Section 10 Start */
+
+.bg-banner9 {
+    height: 625px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-card {
+    width: 1140px;
+    height: 727px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    width: 1140px;
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-text {
+    width: 760px;
+    height: 136px;
+    color: #2d2d2d;
+    font-size: 36px;
+    font-family: "Montserrat, sans-serif";
+    letter-spacing: 0.5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poster-web{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.web-cardd {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 310px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.web-cardd:hover {
+    transform: translateY(-10px);
+    color: #f6f6f6;
+}
+.post-date:hover {
+    color: #002450;
+}
+.post-title:hover {
+    color: #00b7ff;
+}
+.author-name:hover {
+    color: #002450;
+}
+
+.card-imagess {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.post-date {
+    color: #00b7ff;
+    font-size: 16px;
+    font-size: "Roboto, sans-serif";
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #002450;
+    font-size: 24px;
+    font-size: "Montserrat, sans-serif";
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.post-excerpt {
+    color: #9fa4af;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-size: "Montserrat, sans-serif";
+    text-align: left;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-imagess {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-name {
+    color: #00b7ff;
+    font-size: 15px;
+    margin-left: 15px;
+    font-size: "Roboto, sans-serif";
+    text-align: left;
+}
+/* Section 10 End */
+
