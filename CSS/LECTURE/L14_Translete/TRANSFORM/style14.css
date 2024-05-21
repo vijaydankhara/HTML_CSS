@@ -108,12 +108,21 @@ background-color: coral;
 
 
                     
-                .skew{
+                .skew1{
                     height: 150px;
                     width: 150px;
                     background-color: rgb(237, 34, 176);
                     }
-                    .path:hover .scaleY{
-                        transform: scaleY(2);
+                    .path:hover .skew1{
+                        transform:skew(90deg,45deg);
                         transition: 5s;
                     }
+                    .skew2{
+                        height: 150px;
+                        width: 150px;
+                        background-color: rgb(18, 255, 129);
+                        }
+                        .path:hover .skew2{
+                            transform:skewY(90deg);
+                            transition: 5s;
+                        }
