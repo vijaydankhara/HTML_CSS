@@ -1,0 +1,53 @@
+
+a:first-child {
+    background-color: yellow;
+    color: red;
+    /* 16 */
+  }
+
+a:nth-last-child(2){
+    background-color: yellow;
+    color: red;
+    /* 19 */
+}
+
+span:first-child p:first-child{
+    background-color: yellow;
+    color: red;
+    /* 68  */
+}
+
+p:nth-last-child(1) {
+    color:red;
+    background-color: yellow;
+    /* 68 72  */
+}
+h1:only-child{
+    color:red;
+    background-color: yellow;
+    /* 46 */
+}
+h1:nth-last-of-type(7){
+    color:red;
+    background-color:yellow;
+    /* 63 */
+}
+h1:nth-last-of-type(10){
+    color:red;
+    background-color:yellow;
+    /* 28 */
+}
+
+
+
+
+h1:nth-last-child(4){
+    color:red;
+    background-color:yellow;
+    /* 57 */
+}
+p:last-of-type{
+    color:red;
+    background-color:yellow;
+    /* 68 72 */
+}
