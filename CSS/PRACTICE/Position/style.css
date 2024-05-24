@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    color: blue;
+    font-style: italic;
+    margin-left: 170px;
+}
 /* static start*/
 .static{
     height: 105px;
     width: 420px;
     border: 2px solid black;
-    margin: 50px;
+    margin: 10px;
    
 
 }
@@ -62,7 +67,7 @@ justify-content: space-around;
     height: 105px;
     width: 420px;
     border: 2px solid black;
-    margin: 50px;
+    margin: 10px;
     
 
 }
@@ -117,7 +122,7 @@ justify-content: space-around;
     height: 105px;
     width: 420px;
     border: 2px solid black;
-    margin: 50px;
+    margin: 10px;
     position: relative;
     
 
