@@ -620,11 +620,18 @@
 .columns:hover {
     background-color: #00b7ff;
     color: #fff;
+
+    li{
+        color: #fff;
+    }
 }
 
 .columns2:hover {
     background-color: #002450;
     color: #fff;
+    li{
+        color: #fff;
+    }
 }
 
 /* Section 7 End */
