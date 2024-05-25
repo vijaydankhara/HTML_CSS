@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+
+.pagination a.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
