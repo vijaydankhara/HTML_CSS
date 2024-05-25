@@ -1,15 +1,22 @@
 .pagination {
+    height: 40px;
+    width: 450px;
     display: flex;
     list-style: none;
     padding: 0;
+    background-color: antiquewhite;
+    margin: 100px;
+
 }
 
 .pagination li {
     margin: 0 5px;
+    display: flex;
+
 }
 
 .pagination a {
-    display: block;
+    display: flex;
     padding: 10px 15px;
     text-decoration: none;
     color: #000;
@@ -20,6 +27,9 @@
 
 
 .pagination a.disabled {
-    pointer-events: none;
-    opacity: 0.5;
+  background-color: rgb(255, 122, 6);
 }
+.pagination a.active {
+    background-color: rgb(6, 93, 255);
+    color: #ddd;
+  }
