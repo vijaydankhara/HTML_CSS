@@ -88,7 +88,45 @@
     }
 }
 
-/* 3rd animation */
+
+/* 3th Animation */
+.hiden{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    }
+    
+    .smoke {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 50%;
+    position: relative;
+    animation: ani-opacity 5s ease-in-out infinite;
+    }
+    
+    @keyframes ani-opacity {
+    0% {
+      transform: translateY(0) scale(1);
+      background-color: brown;
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-20px) scale(1.1);
+      background-color: green;
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(-100px) scale(1.2);
+      background-color: blue;
+      opacity: 0.1;
+    }
+    }
+
+
+/* 4rd animation */
 .contenar3 {
     position: relative;
     text-align: center;
@@ -143,7 +181,7 @@
 }
 
 
-/* 3rd animation */
+/* 5rd animation */
 .contenar4 {
     position: relative;
     text-align: center;
@@ -195,7 +233,7 @@
     }
 }
 
-/* 5th animation */
+/* 6th animation */
 .div {
     width: 100px;
     height: 50px;
@@ -233,6 +271,8 @@
         left: 100px;
     }
     to {
-        left: 700px;
+        left: 400px;
     }
   }
+
+
