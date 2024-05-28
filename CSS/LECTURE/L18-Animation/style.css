@@ -241,28 +241,33 @@
     background-color: red;
     font-weight: bold;
     position: relative;
-    animation: mymove 5s;
     text-align: center;
     animation-fill-mode: forwards;
+    /* animation: mymove 5s; */
   }
   
   #div1 {
+    animation: mymove 5s;
     animation-timing-function: linear;
     background-color: aqua;
 }
   #div2 {
+    animation: mymove 5s;
     animation-timing-function: ease;
     background-color: yellow;
 }
   #div3 {
+    animation: mymove 5s;
     animation-timing-function: ease-in;
     background-color: palegreen;
 }
   #div4 {
+    animation: mymove 5s;
     animation-timing-function: ease-out;
     background-color: tomato;
 }
   #div5 {
+    animation: mymove 5s;
     animation-timing-function: ease-in-out;
     background-color: cadetblue;
 }

@@ -177,6 +177,14 @@
     background-color: #00bbff; 
     width: 400px;
     height: 391px;
+i{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    transition: 2s;
+    transform: rotatey(180deg);
+
+}
 }
 
 .web-text {
@@ -187,11 +195,6 @@
 #iconeCode {
     color: #fff;
     font-size: 50px;
-    transition: color 0.3s ease; 
-}
-
-#iconeCode:hover {
-    color: #ff0000; 
 }
 
 
