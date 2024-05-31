@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 .image{
-    height: 400px;
-    width: 400px;
     background-image: url("./asset/bg.jpg");
     background-color: #cccccc;
 
