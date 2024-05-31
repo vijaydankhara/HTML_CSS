@@ -9,7 +9,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   font-family: Arial, Helvetica, sans-serif;
-  
+  filter: blur(2px);
+
+}
+
+.bg {
+  /* filter: blur(150px); */
+  /* background-color: #338b18;
+  background-image: url(./assets/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(2px); */
 }
 
 form {
@@ -19,7 +29,7 @@ form {
   width: 100%;
   height: 70%;
   padding: 10px 0;
-  
+
 }
 
 .container {
@@ -31,7 +41,7 @@ form {
   background-color: aliceblue;
   outline: 3px solid gold;
   outline-offset: 1px;
-  
+
 }
 
 h1 {
@@ -74,7 +84,7 @@ input[type="password"]:focus {
 }
 
 .button:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 /* cancel button */
@@ -118,6 +128,7 @@ input[type="password"]:focus {
     transform: translateY(10px);
     color: blue;
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
