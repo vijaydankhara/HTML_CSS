@@ -10,18 +10,8 @@ body {
   background-position: center;
   font-family: Arial, Helvetica, sans-serif;
   /* filter: blur(2px); */
-  
-
 }
 
-.bg {
-  /* filter: blur(150px); */
-  /* background-color: #338b18;
-  background-image: url(./assets/bg2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: blur(2px); */
-}
 
 form {
   display: flex;
@@ -38,13 +28,11 @@ form {
   max-width: 400px;
   height: auto;
   padding: 10px;
-  border: 1px solid blue;
+  border: 3px solid blue;
   background-color: aliceblue;
-  outline: 3px solid gold;
-  outline-offset: 1px;
-  z-index: 2;
 
 }
+
 
 h1 {
   text-align: center;
